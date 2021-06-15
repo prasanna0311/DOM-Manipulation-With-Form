@@ -1,0 +1,65 @@
+.background {
+  background-image: url("https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body {
+  height: 100%;
+  font-family: "Mate SC", serif;
+  letter-spacing: 1px;
+  color: white;
+  font-size: large;
+}
+.container {
+  padding: 20px 200px 200px 200px;
+}
+.inputfilled {
+  color: white;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px 20px 20px 20px;
+}
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="button"] {
+  background-color: #25b820;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 50px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.heading {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+}
+.thead-dark {
+  text-align: justify;
+  color: white;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.9);
+}
